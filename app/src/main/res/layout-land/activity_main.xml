@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/marciano"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/gallery_thumb"
+        android:text="@string/textoBoton"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="90dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/titulo"
+        android:textColor="@android:color/background_light"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

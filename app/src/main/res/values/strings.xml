@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrimerBack</string>
+    <string name="titulo">Bienvenido</string>
+    <string name="textoBoton">Entrar</string>
+</resources>
